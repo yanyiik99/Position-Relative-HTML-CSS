@@ -1,0 +1,171 @@
+body {
+    background-image: url(img/grey.png);
+}
+
+.head {
+    width: 800px;
+    height: 600px;
+    background-color: rgb(21, 112, 21);
+    position: relative;
+    left: 500px;
+    top: 50px;
+    border: 1px solid black;
+    border-radius: 40px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.eye-left {
+    width: 250px;
+    height: 80px;
+    background-color: black;
+    position: relative;
+    top: 150px;
+    left: 70px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.eye-left .ball-left {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(141, 23, 23);
+    position: relative;
+    top: 0px;
+    left: 80px;
+    border-radius: 50%;
+}
+
+.eye-right {
+    width: 250px;
+    height: 80px;
+    background-color: black;
+    position: relative;
+    top: 70px;
+    left: 480px;
+    border: 1px solid white;
+}
+
+.eye-right .ball-right {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(141, 23, 23);
+    position: relative;
+    top: 0px;
+    left: 100px;
+    border-radius: 50%;
+}
+
+
+.nose {
+    width: 120px;
+    height: 70px;
+    background-color: black;
+    position: relative;
+    top: 100px;
+    left: 340px;
+}
+
+.mounth {
+    width: 500px;
+    height: 80px;
+    background-color: black;
+    border: 1px solid red;
+    position: relative;
+    top: 170px;
+    left: 150px;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.mounth span {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: -9px;
+}
+
+.mounth b {
+    position: relative;
+    top: 34px;
+}
+
+
+.body {
+    width: 1400px;
+    height: 200px;
+    background-color: rgb(0, 183, 255);
+    position: relative;
+    top: 50px;
+    left: 190px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.body .shirt {
+    width: 800px;
+    height: 900px;
+    background-color: rgb(0, 183, 255);
+    position: relative;
+    left: 313px;
+}
+
+.body .shirt .hand-left {
+    width: 307px;
+    height: 800px;
+    background-color:rgb(21, 112, 21);
+    position: relative;
+    top: 200px;
+    left: -313px;
+    border: 3px solid black;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+}
+
+.body .shirt .hand-right {
+    width: 283px;
+    height: 800px;
+    background-color:rgb(21, 112, 21);
+    position: relative;
+    top: -607px;
+    left: 800px;
+    border: 3px solid black;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+}
+
+.pants .left {
+    width: 390px;
+    height: 800px;
+    background-color:rgb(56, 15, 110);
+    position: relative;
+    top: 750px;
+    left: 503px;
+}
+
+.pants .right {
+    width: 390px;
+    height: 800px;
+    background-color:rgb(56, 15, 110);
+    position: relative;
+    top: -50px;
+    left: 913px;
+}
+
+.shoes .left {
+    width: 390px;
+    height: 200px;
+    background-color:slategrey;
+    position: relative;
+    top: -50px;
+    left: 503px;
+}
+
+.shoes .right {
+    width: 390px;
+    height: 200px;
+    background-color:slategrey;
+    position: relative;
+    top: -250px;
+    left: 913px;
+}
